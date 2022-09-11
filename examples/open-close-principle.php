@@ -6,7 +6,7 @@
 // Methods should be open for extension, but closed for modification
 
 // OCP Open Close Principle a violation example 
-class LoginService {
+class LoginService { 
     public function login($user){
         if( $user instanceof User ){
             $this->authenticate($user);

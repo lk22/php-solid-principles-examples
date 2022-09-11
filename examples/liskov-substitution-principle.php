@@ -4,7 +4,7 @@
 // Subtypes must be substitutable for their base types
 
 // LSP Liskov Substitution Principle a violation example
-class Shipping {
+class Shipping { 
     public function calculateShippingCost($weightOfPackageKg, $destiny) {
         // pre condition
         if($weightOfPackageKg < 0) {

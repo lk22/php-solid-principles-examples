@@ -8,7 +8,7 @@
             $users = $users->where('created_at', Carbon::yesterday());
 
             return respons()->json(['users', $users]);
-        }
+        } 
 
         // DIP Dependency Inversion Principle a solution example
         interface UserRepositoryInterface {

@@ -4,7 +4,7 @@
 // A class should have only one responsibility
 // A class should have only one job
 // SRP - Single responsibility principle (Klassen har kun én grund til at ændre) violation example
-
+ 
 class Document {
     protected $title;
     protected $content;
